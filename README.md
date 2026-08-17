@@ -5,6 +5,19 @@ Korea: Instagram → Linktree → Google Form intake → payment → first-week
 attendance, rebuilt as a real data model and paired with documentation
 written the way I'd write it for a real product team.
 
+![Salesforce](https://img.shields.io/badge/Salesforce-Developer%20Edition-00A1E0?logo=salesforce&logoColor=white)
+![Docs](https://img.shields.io/badge/Docs-Markdown-000000?logo=markdown&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+## Contents
+
+- [Why I Built This](#why-i-built-this)
+- [What It Does](#what-it-does)
+- [Screenshots](#screenshots)
+- [Documentation](#documentation)
+- [Built With](#built-with)
+- [About Me](#about-me)
+
 ## Why I Built This
 
 <!-- TODO: this is a draft in your voice — read it, and only keep it if it
@@ -38,24 +51,30 @@ the next cohort.
 
 ## Screenshots
 
-![Object Manager showing Course, Prospect, and Payment custom objects](docs/images/object-manager.png)
+<img src="docs/images/object-manager.png" width="800" alt="Object Manager showing Course, Prospect, and Payment custom objects">
+
 *The three custom objects behind the app.*
 
-![Prospect field configuration](docs/images/prospect-fields.png)
+<img src="docs/images/prospect-fields.png" width="800" alt="Prospect field configuration">
+
 *Prospect's fields, including the Status funnel stage and the Total Paid roll-up.*
 
-![A Prospect record at the Paid stage with Total Paid and related Payments](docs/images/prospect-record.png)
+<img src="docs/images/prospect-record.png" width="800" alt="A Prospect record at the Paid stage with Total Paid and related Payments">
+
 *A real test record moved through the funnel, with Total Paid calculated automatically from its related Payment records.*
 
-![A Course record](docs/images/course-record.png)
+<img src="docs/images/course-record.png" width="800" alt="A Course record">
+
 *One of the course offerings prospects can select on the Google Form.*
 
 ## Documentation
 
-- [`docs/data-model.md`](docs/data-model.md) — objects, fields, and relationships
-- [`docs/admin-setup.md`](docs/admin-setup.md) — how to configure this from a blank org
-- [`docs/user-guide.md`](docs/user-guide.md) — how to use the app day to day
-- [`docs/campaign-data.md`](docs/campaign-data.md) — the real 3-month Instagram and Linktree performance this funnel is modeled on
+| Doc | Covers |
+|---|---|
+| [`docs/data-model.md`](docs/data-model.md) | Objects, fields, and relationships |
+| [`docs/admin-setup.md`](docs/admin-setup.md) | How to configure this from a blank org |
+| [`docs/user-guide.md`](docs/user-guide.md) | How to use the app day to day |
+| [`docs/campaign-data.md`](docs/campaign-data.md) | The real 3-month Instagram and Linktree performance this funnel is modeled on |
 
 ## Built With
 

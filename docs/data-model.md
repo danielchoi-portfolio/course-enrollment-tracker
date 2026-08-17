@@ -1,5 +1,8 @@
 # Data Model
 
+[← Back to README](../README.md) · [Admin Setup](admin-setup.md) · [User Guide](user-guide.md) · [Campaign Data](campaign-data.md)
+
+> [!IMPORTANT]
 > This is the object model this project is built to. If your actual build
 > in Salesforce ends up differing in any small way, update this file to
 > match reality before you consider it finished — a data model doc that

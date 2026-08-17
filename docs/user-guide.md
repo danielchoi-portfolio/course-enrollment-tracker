@@ -1,5 +1,7 @@
 # User Guide
 
+[← Back to README](../README.md) · [Data Model](data-model.md) · [Admin Setup](admin-setup.md) · [Campaign Data](campaign-data.md)
+
 This guide is written for an Enrollment Coordinator: the person who
 actually works prospects day to day, not the admin who configured the org.
 It explains how to move a prospective student from first contact to paid

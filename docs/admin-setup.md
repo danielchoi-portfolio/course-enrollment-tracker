@@ -1,5 +1,8 @@
 # Admin Setup Guide
 
+[← Back to README](../README.md) · [Data Model](data-model.md) · [User Guide](user-guide.md) · [Campaign Data](campaign-data.md)
+
+> [!NOTE]
 > This is written as the plan to follow while building the org from
 > scratch. After you've actually clicked through it, come back and mark
 > anywhere the real Setup UI differed from what's described here — Salesforce
