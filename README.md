@@ -39,15 +39,19 @@ the next cohort.
 <!-- TODO: add a screenshot or short GIF of the app here once it exists,
      e.g.  ![App overview](docs/images/overview.png)  -->
 
-## Demo
+## Screenshots
 
-<!-- TODO: this can't be written for you — it needs an actual recording of
-     the actual app. On a Mac: Cmd+Shift+5 opens the built-in screen
-     recorder (no extra software needed), or use free tools like Loom.
-     Keep it to 60-90 seconds: create a prospect, move it through a couple
-     of stages, record a payment. Save it as a GIF (or upload as an
-     unlisted YouTube/Loom link) and either embed or link it here, e.g.
-     ![Demo](docs/images/demo.gif)  or  [Watch the demo](your-link-here) -->
+![Object Manager showing Course, Prospect, and Payment custom objects](docs/images/object-manager.png)
+*The three custom objects behind the app.*
+
+![Prospect field configuration](docs/images/prospect-fields.png)
+*Prospect's fields, including the Status funnel stage and the Total Paid roll-up.*
+
+![A Prospect record at the Paid stage with Total Paid and related Payments](docs/images/prospect-record.png)
+*A real test record moved through the funnel, with Total Paid calculated automatically from its related Payment records.*
+
+![A Course record](docs/images/course-record.png)
+*One of the course offerings prospects can select on the Google Form.*
 
 ## Documentation
 
