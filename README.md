@@ -1,2 +1,3 @@
 # course-enrollment-tracker
-Salesforce app + documentation for a course enrollment conversion funnel
+
+Course Enrollment & Conversion Tracker — setup in progress.
