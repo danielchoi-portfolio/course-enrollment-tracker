@@ -1,56 +1,78 @@
 # Course Enrollment & Conversion Tracker
 
-<!-- TODO: Replace this line with a one-sentence pitch once the app is built,
-     e.g. "A Salesforce app that tracks prospective students from first
-     inquiry through paid enrollment, built to practice the same funnel
-     tracking I used to grow signup conversion 203% at ISMP Korea." -->
-
-A small Salesforce app that models a course enrollment funnel end to end:
-**Lead → Inquiry → Enrolled → Paid**, built as a hands-on project to pair
-with documentation written the way I'd document it for a real product team.
+A Salesforce app that models the actual enrollment funnel I ran at ISMP
+Korea: Instagram → Linktree → Google Form intake → payment → first-week
+attendance, rebuilt as a real data model and paired with documentation
+written the way I'd write it for a real product team.
 
 ## Why I Built This
 
-<!-- TODO: 2-3 sentences, first person. Ground it in something real — e.g.
-     the enrollment funnel work at ISMP Korea (audience research, signup
-     conversion, discovery-to-payment journey design). Don't invent new
-     numbers here; if you reference a stat, it should match your resume. -->
+<!-- TODO: this is a draft in your voice — read it, and only keep it if it
+     actually sounds like you. Edit freely, this is the one section that
+     most needs to sound like a real person, not a template. -->
+
+At ISMP Korea, I ran the actual growth funnel for a new English-learning
+program: an Instagram account I grew to 1,208 followers, driving 7,139
+profile visits and 919 taps on the Linktree link in the bio over a single
+90-day window, into a Linktree that converted 91.2% of its own 1,405
+visitors through to a Google Form. That form captured each prospect's
+school year, school, and which course they wanted, followed by payment and
+first-week attendance. I used audience research and iteration on that
+funnel to increase signup conversion by 203%, but at the time it lived
+across Instagram insights, a Google Form, and a spreadsheet, not a single
+system of record. This project rebuilds that same funnel as an actual
+Salesforce data model, seeded with the real numbers behind it (see
+[`docs/campaign-data.md`](docs/campaign-data.md)), and documents it the way
+I'd want it documented if I were handing it off to someone else running
+the next cohort.
 
 ## What It Does
 
-<!-- TODO: keep/edit/replace these once the object model is final. -->
-
-- Tracks a prospect's progress through four stages: Lead, Inquiry, Enrolled, Paid
-- Captures acquisition channel per prospect, so conversion can be broken out by source
-- [Add any report/dashboard you build, e.g. "A conversion-by-channel report"]
-- [Add anything else the app actually does]
+- Tracks a prospect's progress through four stages that mirror the real funnel: Lead, Form Submitted, Paid, Attended Week 1
+- Captures acquisition channel and landing page separately (e.g. Instagram → Linktree), so the top-level channel and the specific link that converted can be reported independently
+- Stores the school year, school, and course selection captured on the Google Form intake
+- Relates each prospect to the specific course they're interested in
+- Records individual payment transactions against a prospect, rather than a single paid/unpaid flag
+- Tracks first-week attendance as its own step, so paid-but-didn't-attend is visible instead of assumed away
+<!-- TODO: if you build the optional conversion-by-channel report or the
+     Total Paid roll-up field, add a line here once they exist. -->
 
 <!-- TODO: add a screenshot or short GIF of the app here once it exists,
      e.g.  ![App overview](docs/images/overview.png)  -->
 
 ## Demo
 
-<!-- TODO: embed or link the short screen-recording walkthrough here. -->
+<!-- TODO: this can't be written for you — it needs an actual recording of
+     the actual app. On a Mac: Cmd+Shift+5 opens the built-in screen
+     recorder (no extra software needed), or use free tools like Loom.
+     Keep it to 60-90 seconds: create a prospect, move it through a couple
+     of stages, record a payment. Save it as a GIF (or upload as an
+     unlisted YouTube/Loom link) and either embed or link it here, e.g.
+     ![Demo](docs/images/demo.gif)  or  [Watch the demo](your-link-here) -->
 
 ## Documentation
 
 - [`docs/data-model.md`](docs/data-model.md) — objects, fields, and relationships
 - [`docs/admin-setup.md`](docs/admin-setup.md) — how to configure this from a blank org
 - [`docs/user-guide.md`](docs/user-guide.md) — how to use the app day to day
+- [`docs/campaign-data.md`](docs/campaign-data.md) — the real 3-month Instagram and Linktree performance this funnel is modeled on
 
 ## Built With
 
 - **Salesforce** (Developer Edition org) — the app itself
 - **Markdown** — all documentation in this repo
 - **Git / GitHub** — version control and project history
-<!-- TODO: if you used Claude, Cursor, or another AI tool while building or
-     documenting this, say so plainly and specifically, e.g.
-     "Used Claude to draft first-pass documentation structure, then rewrote
-     and fact-checked every section against the actual org configuration." -->
+- **Claude** — used to draft the initial data model spec and documentation
+  structure, which I then implemented in Salesforce and edited by hand to
+  match what I actually built
+<!-- TODO: keep that last line only if it stays true — once you've built
+     the real thing and edited these docs yourself, it should accurately
+     describe what happened, not just what happened right now. -->
 
 ## About Me
 
-<!-- TODO: one or two sentences + links, e.g.
-     "I'm Daniel Choi, an early-career technical writer. More of my work:
-     [Portfolio](https://app.notion.com/p/Daniel-Choi-Portfolio-33481903f3eb8013b522ee21a2342c7b)
-     · [LinkedIn](https://linkedin.com/in/daniel-j-choi)" -->
+I'm Daniel Choi, an early-career technical writer with experience producing
+user-facing documentation, training materials, and system guides for
+enterprise software. More of my work:
+[Portfolio](https://app.notion.com/p/Daniel-Choi-Portfolio-33481903f3eb8013b522ee21a2342c7b)
+· [LinkedIn](https://linkedin.com/in/daniel-j-choi)
