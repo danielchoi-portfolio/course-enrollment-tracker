@@ -56,6 +56,7 @@ fields need a little extra care:
    - `Acquisition Channel`: Instagram, Referral, Organic Search, Website, Event
    - `Landing Page`: Linktree, Direct Website
    - `School Year`: Freshman, Sophomore, Junior, Senior
+   - `Payment Method`: Credit Card, Bank Transfer, Cash, Other
 4. After creating each field, the wizard asks which profiles get
    field-level access and whether to add it to the existing page layout —
    say yes to both for System Administrator.

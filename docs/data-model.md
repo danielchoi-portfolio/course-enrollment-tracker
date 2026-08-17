@@ -58,7 +58,7 @@ by payment and a first-week attendance check.
 | Prospect | Master-Detail (Prospect) | The prospect this payment belongs to |
 | Amount | Currency | Payment amount |
 | Payment Date | Date | When the payment was received |
-| Payment Method | Picklist (Credit Card, Bank Transfer, Cash) | Optional — how the prospect paid |
+| Payment Method | Picklist (Credit Card, Bank Transfer, Cash, Other) | Optional — how the prospect paid |
 
 <!-- TODO: if you add or rename any field while actually building this,
      update the tables above to match. -->
