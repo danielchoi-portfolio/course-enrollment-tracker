@@ -66,8 +66,8 @@ Date**. If someone paid but didn't show up, leave their Status at `Paid`
 rather than moving it forward — that gap is exactly what this stage is
 meant to surface.
 
-<!-- TODO: if you built the Total Paid roll-up field, mention here that it
-     updates automatically once a Payment record is saved. -->
+The **Total Paid** field on the Prospect record updates automatically once a
+Payment record is saved, so you never have to add it up by hand.
 
 ## Checking Your Conversion Numbers
 

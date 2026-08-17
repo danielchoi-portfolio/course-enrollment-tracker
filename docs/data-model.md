@@ -50,6 +50,7 @@ by payment and a first-week attendance check.
 | Form Submitted Date | Date | When Status first moved to Form Submitted |
 | First Week Attendance Date | Date | When Status first moved to Attended Week 1 — left blank if they paid but never showed up |
 | Notes | Long Text Area | Optional freeform notes from whoever's working the record |
+| Total Paid | Roll-Up Summary (SUM of Payment.Amount) | Read-only — automatically totals every related Payment record |
 
 ### Payment
 
@@ -101,9 +102,7 @@ example of why the relationship type matters beyond just "which object
 owns which": lookup relationships can't power roll-up summaries, so the
 choice here was driven by a feature I wanted, not just data ownership.
 
-<!-- TODO: if you add the Total Paid roll-up field, mention it here and in
-     the Prospect field table above. If you skip it for time, delete this
-     paragraph so the doc doesn't reference a field that doesn't exist. -->
+
 
 The `Status` values (Lead, Form Submitted, Paid, Attended Week 1) match the
 actual funnel this models rather than a generic CRM template. I kept

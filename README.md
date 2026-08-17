@@ -34,8 +34,7 @@ the next cohort.
 - Relates each prospect to the specific course they're interested in
 - Records individual payment transactions against a prospect, rather than a single paid/unpaid flag
 - Tracks first-week attendance as its own step, so paid-but-didn't-attend is visible instead of assumed away
-<!-- TODO: if you build the optional conversion-by-channel report or the
-     Total Paid roll-up field, add a line here once they exist. -->
+- Automatically totals a prospect's payments via a `Total Paid` roll-up summary field
 
 <!-- TODO: add a screenshot or short GIF of the app here once it exists,
      e.g.  ![App overview](docs/images/overview.png)  -->
